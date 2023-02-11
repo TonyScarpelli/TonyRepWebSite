@@ -1,0 +1,165 @@
+body {
+  background-color: cornsilk;
+}
+
+h1, h2, h3, h4 {
+  color: rgb(102, 0, 128);
+  font-weight: bold;
+}
+
+h5 {
+  color: brown;
+  font-weight: bold;
+}
+
+/*===============================================================*/
+/* Navigation bar */
+#home-navbar {
+  margin: 5px 40px 0px 10px;  /* top right bottom left */
+}
+
+/* When hovering */
+.navbar .navbar-nav .nav-link:hover {
+  background-color: cornsilk;
+  color: red;
+}
+
+/* Navbar links: Home, Skills, Hobbies, Contact */
+.navbar .navbar-nav .nav-link {
+  padding: 0.6em;
+  font-size: 1.6em;
+  font-weight: bold;
+  color: rgb(102, 0, 128);
+  /*transition: all 0.5s;*/
+}
+
+/* Navbar Brand: Navbar */
+.navbar-brand {
+  padding: 0 0.6em;
+  font-size: 1.6em;
+  font-weight: bold;
+}
+
+/*===============================================================*/
+/* Containers */
+#myinfo {
+  border-top: 0px;
+  margin: 10px 40px 10px 40px; /* top right bottom left */
+}
+
+#education {
+  border-top: 0px;
+  height: 400px;
+  margin: 0px 40px 120px 35px ; /* top right bottom left */
+}
+
+/*===============================================================*/
+/* Skills */
+
+* {
+  box-sizing: border-box;
+}
+
+.skills-heading {
+  margin: 10px 30px 10px 30px ;   /* top right bottom left */
+}
+
+.row {
+  margin-left: -10px;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+}
+
+/* Clearfix (clear floats) */
+/*
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+*/
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  border: 1px solid #ddd;
+}
+
+th, td {
+  text-align: left;
+  padding: 5px;
+}
+
+/*
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+*/
+
+
+#footer {
+  padding: 10px 30px 30px 0px ;   /* top right bottom left */
+}
+
+/*===============================================================*/
+/* Contact section */
+.contact {
+  margin: 10px 30px 10px 100px ;   /* top right bottom left */
+}
+
+input[type=submit] {
+  font-size : 20px; 
+  font-weight: bold;
+}
+
+/*===============================================================*/
+/* Unformatted Lists */
+ul {
+  margin-left: 50px;
+}
+
+ul li {
+  list-style: none;
+  display: inline-block;
+  line-height: 50px;
+}
+
+ul li a {
+  display: block;
+  text-decoration: none;
+  font-family: Arial;
+  padding: 20px;
+}
+
+ul li a:hover {
+  color: red;
+}
+
+
+/*
+@media only screen and (min-width: 1028px) {
+  .heading {
+    padding: 0;
+    margin: 0;
+  }
+
+  .navbar .navbar-nav .nav-link {
+    padding: 1em 0.7em;
+  }
+
+  .navbar .navbar-brand {
+    padding: 0 0.8em;
+  }
+
+  .ul {
+    padding: 0px;
+    line-height: 20px;
+  }
+}
+
+*/
